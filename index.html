@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #90ccf4;
+            color: white;
+        }
+
+
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #ECECEC;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            text-decoration: none;
+            align-items: center;
+            margin: 0 23px;
+            padding: o.5rem 1rem;
+            height: 80%;
+        }
+
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            display: flex;
+        }
+
+        main hr {
+            border: 0;
+            background-color: white;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            padding-left: 10%;
+            padding-right: 40%;
+        }
+
+        .Firstsection {
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .purple {
+            color: #f78888;
+        }
+
+        .Secondsection {
+            max-width: 80vw;
+            margin: auto;
+            align-items: center;
+            height: 80vh;
+
+        }
+
+        h1 {
+            font-weight: bold;
+            display: block;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            font-size: 5rem;
+            position: fixed;
+            text-align: center;
+            width: 100%;
+        }
+
+        .CDN1 {
+            font-size: 3.2rem;
+            position: fixed;
+            text-align: center;
+            width: 80%;
+            margin: 8rem;
+    padding-left: 2rem;
+        }
+
+
+
+        nav img {
+            width: 80px;
+        }
+
+        .github img {
+            position: relative;
+            top: 0;
+            left: 0;
+            transition: all .2s ease-in-out;
+            width: 35px;
+        }
+
+        .vidoe {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            z-index: -1;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="headersection">
+        <nav>
+
+            <div class="left"> <img src="logo.png.png" alt=""></div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li><a
+                            href="https://drive.google.com/file/d/1RaUV26xS5yEbhX9P_ZTu80XgZAlbpqIN/view?usp=sharing">Resume</a>
+                    </li>
+                    <li><a href="0">About Me</a></li>
+
+                </ul>
+            </div>
+            <div class="github">
+                <li><a href="https://github.com/sachin533"><img src="github2.png" alt=""></a></li>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="Firstsection">
+            <div>
+                <h1 class="name">SACHIN KAMBLE</h1>
+
+
+                <video class="vidoe" autoplay muted loop>
+                    <source src="vidoe1.mp4" type="video/mp4">
+                    <source src="vidoe1.mp4" type="video/ogg">
+                </video>
+
+                <div>
+                    <span id="element" class="CDN1"></span>
+                    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                    <script>
+                        var typed = new Typed('#element', {
+                            strings: ['Computer Engineer', 'Web Developer' , 'Java Developer'],
+                            typeSpeed: 50,
+                        });
+                    </script>
+                </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+
+
+</body>
+
+</html>
